@@ -10,7 +10,6 @@ header {
   background: url("../images/header_bg.jpg") no-repeat center top;
   background-size: cover;
   font-size: 24px;
-  font-weight: bolder;
   text-align: center;
 }
 .relaxr{
@@ -19,27 +18,35 @@ header {
 	padding-top: 60px;
 	padding-left: 150px;
 	color: white;
+	font-size: 34px;
+	font-weight: bolder;
 }
 .get{
 	color: white;
-	padding-top: 150px;
-	padding-bottom: 60px;
+	font-size: 34px;
+	padding-top: 100px;
+	padding-bottom: 80px;
+	font-weight: normal;
 }
 button{
+	font-family: 'Open Sans', sans-serif;
 	color: #033048;
 	font-size: 24px;
+	font-weight: bold;
 	border: none;
 	border-radius: 5px;
-	padding: 14px 40px;
+	padding-top: 40px;
+	padding: 20px 40px;
 	background-color: #f9e42e
 
 }
 .benefit{
+	width: 750px;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 24px;
+	font-size: 34px;
   	color: #606161;
   	padding-top: 20px;
-  	padding-left: 80px;
+  	padding-left: 120px;
  }
 
 h3{
@@ -47,38 +54,44 @@ h3{
 	color: #033048;
 	font-size: 34px;
 	padding-top: 80px;
-	padding-left: 80px;
+	padding-left: 120px;
 	font-weight: bolder;
 }
 
-.list{
-	width: 400px;
-	padding-top: 20px;
-	padding-left: 80px;
+.list{width: 800px;
+	padding-top: 80px;
+	padding-left: 120px;
 	padding-bottom: 80px;
 	font-weight: lighter;
 }
 .bottom{
 	font-family: 'Open Sans', sans-serif;
+	background: url(../images/testimonial_bg.jpg)no-repeat;
 	font-style: italic;
-	font-size: 34px;
+	background-color: #13142E;
+	background-position: center;
+	text-decoration-color: #606161;
+	font-size: 38px;
+	text-align: center;
 	height: 300px;
 	padding-top: 80px;
-	text-align: center;
-	background: url(../images/testimonial_bg.jpg);
-	color: #606161;
+	
+	
+	color: #606161
 }
 .amanda{
 	color: white;
 }
 
 .button1{
+
 	text-align: center;
 	font-size: 24px;
 	border: none;
 	border-radius: 5px;
-	padding: 15px 38px;
+	padding: 15px 36px;
 	background-color: #f9e42e; 
+	height: 70px;
 }
 .btn{
 	background-color: #033048;
@@ -92,8 +105,9 @@ footer{
 	background-color: #121212;
 }
 .laxr{
+	font-family: 'Open Sans', sans-serif;
 	color: #f9e42e;
-	font-size: 34px;
+	font-size: 44px;
 	font-weight: bolder;
 	padding-bottom: 20px;
 }
