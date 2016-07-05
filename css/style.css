@@ -4,8 +4,11 @@
   padding: 0;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 header {
-  font-family: 'Open Sans', sans-serif;
   height: 700px;
   background: url("../images/header_bg.jpg") no-repeat center top;
   background-size: cover;
@@ -13,7 +16,6 @@ header {
   text-align: center;
 }
 .relaxr{
-	font-family: 'Open Sans', sans-serif;
 	text-align: left;
 	padding-top: 60px;
 	padding-left: 150px;
@@ -29,7 +31,6 @@ header {
 	font-weight: normal;
 }
 button{
-	font-family: 'Open Sans', sans-serif;
 	color: #033048;
 	font-size: 24px;
 	font-weight: bold;
@@ -38,19 +39,16 @@ button{
 	padding-top: 40px;
 	padding: 20px 40px;
 	background-color: #f9e42e
-
 }
 .benefit{
 	width: 750px;
-	font-family: 'Open Sans', sans-serif;
 	font-size: 34px;
   	color: #606161;
   	padding-top: 20px;
   	padding-left: 120px;
  }
 
-h3{
-	font-family: 'Open Sans', sans-serif;
+h3 {
 	color: #033048;
 	font-size: 34px;
 	padding-top: 80px;
@@ -58,27 +56,36 @@ h3{
 	font-weight: bolder;
 }
 
-.list{width: 800px;
+.list{
+    width: 800px;
 	padding-top: 80px;
 	padding-left: 120px;
 	padding-bottom: 80px;
 	font-weight: lighter;
 }
 .bottom{
-	font-family: 'Open Sans', sans-serif;
-	background: url(../images/testimonial_bg.jpg)no-repeat;
+	background-image: url(../images/testimonial_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 	font-style: italic;
-	background-color: #13142E;
+	background-color: red;
 	background-position: center;
+    color: white;
 	text-decoration-color: #606161;
 	font-size: 38px;
+    font-weight: 400;
 	text-align: center;
 	height: 300px;
 	padding-top: 80px;
-	
-	
 	color: #606161
 }
+
+.bottom p {
+    color: white;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 .amanda{
 	color: white;
 }
@@ -90,7 +97,7 @@ h3{
 	border: none;
 	border-radius: 5px;
 	padding: 15px 36px;
-	background-color: #f9e42e; 
+	background-color: #f9e42e;
 	height: 70px;
 }
 .btn{
@@ -105,7 +112,6 @@ footer{
 	background-color: #121212;
 }
 .laxr{
-	font-family: 'Open Sans', sans-serif;
 	color: #f9e42e;
 	font-size: 44px;
 	font-weight: bolder;
@@ -121,6 +127,3 @@ footer{
 	color: white;
 	padding-top: 60px;
 }
-
-
-
